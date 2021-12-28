@@ -26,6 +26,12 @@ Syntax highlighted code block
 - Bulleted
 - List
 
+ERC  i PSC 
+<div class="flourish-embed flourish-scatter" data-src="visualisation/8247441" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-scatter" data-src="visualisation/8247395" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+
+
 1. Numbered
 2. List
 

@@ -11,8 +11,13 @@ Per posar-nos en context, les dades elecotrals que s'analitzen proven del [web o
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+<div class="flourish-embed flourish-map" data-src="visualisation/8246354"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+
 ```markdown
 Syntax highlighted code block
+
+<div class="flourish-embed flourish-map" data-src="visualisation/8246723"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 # Header 1
 ## Header 2

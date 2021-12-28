@@ -1,25 +1,38 @@
-## Condicionament econòmic a les eleccions al Parlament de Catalunya des d'una perspectiva de dades.
+## Com ha influït la renda a les eleccions al Parlament de Catalunya?
 
-El passat 14/02/2021 es van celebrar eleccions al Parlament de Catalunya. Les dades d'aquests resultats han servit per omplir múltiples articles periodístics i tertútiles de radio i televisió. Aquest article preten ser una nova visió d'aquestes dades, amb ànim d'incorporar altres prespectives.
+El passat 14/02/2021 es van celebrar eleccions al Parlament de Catalunya. Les dades d'aquests resultats han servit per omplir múltiples articles periodístics i tertútiles de radio/televisió, sovint d'una manera subjectiva. Aquest article preten ser una nova visió d'aquests resultats, sempre intentant mantenir una perspectiva del rigor que ens dona la dada.
 
-Per posar-nos en context, les dades elecotrals que s'analitzen provenen del web oficial de dades electorals de la
+Per posar-ho en context, les dades electorals que analitzarem provenen del web oficial de dades electorals de la
 [Generalitat de Catalunya](https://gencat.cat/eleccions/resultatsparlament2021/resultados/resumen/AUCI)
+
+A continuació adjuntem, a mode introductori, una visualització interactiva de bloc que ens permetrà veure com es composen els resultats per circumscripció electoral:
 
 <div class="flourish-embed flourish-election" data-src="visualisation/8237234"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+L'objectiu d'aquest estudi és demostrar com la renda de les persones condiciona a l'hora d'emetre el vot en unes eleccions, i com les persones perceben els discursos dels diferents partits en funció de la seva renda bruta. 
 
-### Markdown
+### Resultats electorals per secció censal
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Al web de la [Generalitat de Catalunya](https://gencat.cat/eleccions/resultatsparlament2021/resultados/resumen/AUCI) trobem els resultats electorals en diferents nivells de granularitat: a nivell de circumscripció, de comarca, vegueria, municipi, districte, barri o secció censal. Donat que el vot és secret, i per tant no tenim el vot emès per a cada ciutadà, per poder dur a terme aquet estudi farem servir el nivell de detall màxim en que podem conèixer el comportament electoral de la ciutadania, que és a nivell de mesa electoral, per entendre'ns, a nivell d'urna comptabilitzada (el que l'administració anomena secció censal):
 
-resultats
+A continuació presentem una visualització que ens permetrà explorar territorialment els resultats electorals obtinguts per partit i secció censal de tot Catalunya. Segons la cartografia usada del [Institut Cartigràfic de la Generalitat de Catalunya](https://www.icgc.cat/Descarregues/Cartografia-vectorial/Seccions-censals) Catalunya està formada per 5.084 seccions censals:
+
 <div class="flourish-embed flourish-map" data-src="visualisation/8246354"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+
+### Renda Bruta i índex Gini
+
+Abans d'analitzar com la renda influeix a l'hora d'exercir el dret a vot, primer visualitzarem com es comporta la renda en funció del territori. No tenim una relació directa entre vot emès i renda percebuda a nivell de persona, ja que el vot és secret i la renda es publica d'una forma agregada i no individual, així doncs, per salvar aquest obstacle, analitzarem la renda bruta de les persones en el nivell de granularitat màxim que [l'Instituto Nacional de Estadística](https://www.ine.es/dynt3/inebase/es/index.htm?padre=7132) ens permet, que són els municipis, els districtes i les seccions censals. 
+
+Abans de veure la següent visualització, ens agradaria introduïr un concepte
 dades eco
+
+Les seccions censals és també el nivell de granularitat màxima en que podem saber els resultats electorals, de manera que podem creuar aquestes dues dades i fer un anàlisis de com es comporten
 
 https://ca.wikipedia.org/wiki/Coeficient_de_Gini
 
 <div class="flourish-embed flourish-map" data-src="visualisation/8246723"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 
 
 ERC  i PSC 

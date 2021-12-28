@@ -15,7 +15,7 @@ L'objectiu d'aquest estudi és demostrar com la renda de les persones condiciona
 
 Al web de la [Generalitat de Catalunya](https://gencat.cat/eleccions/resultatsparlament2021/resultados/resumen/AUCI) trobem els resultats electorals en diferents nivells de granularitat: a nivell de circumscripció, de comarca, vegueria, municipi, districte, barri o secció censal. Donat que el vot és secret, i per tant no tenim el vot emès per a cada ciutadà, per poder dur a terme aquet estudi farem servir el nivell de detall màxim en que podem conèixer el comportament electoral de la ciutadania, que és a nivell de mesa electoral, per entendre'ns, a nivell d'urna comptabilitzada (el que l'administració anomena secció censal).
 
-A continuació presentem una visualització que ens permetrà explorar territorialment els resultats electorals obtinguts per partit i secció censal de tot Catalunya. Segons la cartografia usada del [Institut Cartigràfic de la Generalitat de Catalunya](https://www.icgc.cat/Descarregues/Cartografia-vectorial/Seccions-censals), Catalunya està formada per 5.084 seccions censals:
+A continuació presentem una visualització que ens permetrà explorar territorialment els resultats electorals obtinguts per partit i secció censal de tot Catalunya. Segons la cartografia usada del [Institut Cartogràfic de la Generalitat de Catalunya](https://www.icgc.cat/Descarregues/Cartografia-vectorial/Seccions-censals), Catalunya està formada per 5.084 seccions censals:
 
 <div class="flourish-embed flourish-map" data-src="visualisation/8246354"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
  
@@ -39,31 +39,32 @@ Ara sí, en aquest apartat ens diposem a fer ja l'anàlisis del comportament ele
 
 Farem el nostre anàlisis usant blocs de dos partits, que a priori (suposició subjectiva), es dirigeixen a un mateix públic objectiu (econòmicament parlant), malgrat que ho facin des de perspectives diferents (visió catalanista vs visió unionista):
 
-ERC  i PSC. En aquest primer bloc analitzarem el comportament del dos partits més votats i que persegueixen un públic similar, econòmicament parlant: 
+ERC  i PSC. En aquest primer bloc analitzarem el comportament del dos partits més votats i que persegueixen un públic similar des d'una perspectiva de la socialdemocràcia, econòmicament parlant: 
 
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8247441" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8247395" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-JXCAT i CS
+JXCAT i CS. En aquest segon bloc contrastarem dos partits que fins fa poc compartien espai en el parlament europeu, dins del bloc liberal:
 
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8247464" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8247488" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-CUP i ECP
+CUP i ECP. En aquest tercer bloc, compararem els dos partits que s'autodefineixen més d'esquerres:
 
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8247508" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8247529" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-PDCAT i PP
+PDCAT i PP. En aquest quart bloc, compararem dos partits que han tingut discursos similars durant la campanya en els seus plantejaments econòmics: 
 
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8246909" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8247352" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-En Blanc i VOX
+En Blanc i VOX. Finalment, incorporarem un últim bloc on compararem un partit populista de nova creació, amb els vots en blanc emesos:
 
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8247579" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8247563" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ### Conclusions
+
 
 

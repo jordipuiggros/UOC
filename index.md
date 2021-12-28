@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
+## Resultats a les eleccions al Parlament de Catalunya des d'una perspectiva econòmica.
 
-You can use the [editor on GitHub](https://github.com/jordipuiggros/UOC/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+El passat 14/02/2021 es van celebrar eleccions al Parlament de Catalunya. Les dades d'aquests resultats han servit per omplir múltiples articles periodístics i tertútiles de radio i televisió. Aquest article preten ser una nova visió d'aquestes dades, amb ànim d'incorporar altres prespectives.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Per posar-nos en context, les dades elecotrals que s'analitzen proven del [web oficial de dades electorals de la Generalitat de Catalunya]  (https://gencat.cat/eleccions/resultatsparlament2021/resultados/resumen/AUCI).
+
 
 ### Markdown
 

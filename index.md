@@ -39,7 +39,8 @@ Ara sí, en aquest apartat ens diposem a fer ja l'anàlisis del comportament ele
 
 Farem el nostre anàlisis usant blocs de dos partits, que a priori (suposició subjectiva), es dirigeixen a un mateix públic objectiu (econòmicament parlant), malgrat que ho facin des de perspectives diferents (visió catalanista vs visió unionista):
 
-ERC  i PSC. En aquest primer bloc analitzarem el comportament del dos partits més votats. 
+ERC  i PSC. En aquest primer bloc analitzarem el comportament del dos partits més votats i que persegueixen un públic similar, econòmicament parlant: 
+
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8247441" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8247395" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
@@ -63,10 +64,6 @@ En Blanc i VOX
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8247579" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8247563" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-### Jekyll Themes
+### Conclusions
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jordipuiggros/UOC/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.

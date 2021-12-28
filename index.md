@@ -16,6 +16,9 @@ resultats
 <div class="flourish-embed flourish-map" data-src="visualisation/8246354"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 dades eco
+
+https://ca.wikipedia.org/wiki/Coeficient_de_Gini
+
 <div class="flourish-embed flourish-map" data-src="visualisation/8246723"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
@@ -23,7 +26,25 @@ ERC  i PSC
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8247441" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 <div class="flourish-embed flourish-scatter" data-src="visualisation/8247395" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+JXCAT i CS
 
+<div class="flourish-embed flourish-scatter" data-src="visualisation/8247464" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-scatter" data-src="visualisation/8247488" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+CUP i ECP
+
+<div class="flourish-embed flourish-scatter" data-src="visualisation/8247508" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-scatter" data-src="visualisation/8247529" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+PDCAT i PP
+
+<div class="flourish-embed flourish-scatter" data-src="visualisation/8246909" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-scatter" data-src="visualisation/8247352" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+En Blanc i VOX
+
+<div class="flourish-embed flourish-scatter" data-src="visualisation/8247579" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-scatter" data-src="visualisation/8247563" style="width:48%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ### Jekyll Themes
 

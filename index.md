@@ -1,4 +1,4 @@
-## Resultats a les eleccions al Parlament de Catalunya des d'una perspectiva econòmica.
+## Resultats eleccions al Parlament de Catalunya des d'una perspectiva econòmica.
 
 El passat 14/02/2021 es van celebrar eleccions al Parlament de Catalunya. Les dades d'aquests resultats han servit per omplir múltiples articles periodístics i tertútiles de radio i televisió. Aquest article preten ser una nova visió d'aquestes dades, amb ànim d'incorporar altres prespectives.
 

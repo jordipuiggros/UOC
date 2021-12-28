@@ -4,6 +4,8 @@ El passat 14/02/2021 es van celebrar eleccions al Parlament de Catalunya. Les da
 
 Per posar-nos en context, les dades elecotrals que s'analitzen proven del [web oficial de dades electorals de la Generalitat de Catalunya]  (https://gencat.cat/eleccions/resultatsparlament2021/resultados/resumen/AUCI).
 
+<div class="flourish-embed flourish-election" data-src="visualisation/8237234"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 
 ### Markdown
 

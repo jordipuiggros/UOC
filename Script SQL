@@ -1,0 +1,98 @@
+# Creem les taules SQL que usarem per unificar les dades
+
+--Resultats electorals:
+CREATE TABLE [dbo].[_temp_Resultats](
+	[idprovincia] [varchar](150) NOT NULL,
+	[nomprovincia] [varchar](150) NOT NULL,
+	[idvegueria] [varchar](150) NOT NULL,
+	[nomvegueria] [varchar](150) NOT NULL,
+	[idcomarca] [varchar](150) NOT NULL,
+	[nomcomarca] [varchar](150) NOT NULL,
+	[idmunicipi] [varchar](150) NOT NULL,
+	[nommunicipi] [varchar](150) NOT NULL,
+	[iddistricte] [varchar](150) NOT NULL,
+	[idseccio] [varchar](150) NOT NULL,
+	[cens] [int] NULL,
+	[abstencio] [int] NULL,
+	[blancs] [int] NULL,
+	[partits] [int] NULL,
+	[valids] [int] NULL,
+	[psc] [int] NULL,
+	[erc] [int] NULL,
+	[jxcat] [int] NULL,
+	[vox] [int] NULL,
+	[ecp] [int] NULL,
+	[cup] [int] NULL,
+	[cs] [int] NULL,
+	[pp] [int] NULL,
+	[pdcat] [int] NULL
+) ON [PRIMARY]
+GO
+
+--Renta Bruta
+CREATE TABLE [dbo].[_temp_Renta](
+	[geo] [varchar](150) NOT NULL,
+	[Renta] [int] NULL
+) ON [PRIMARY]
+GO
+
+--Indexs de les seccions censals
+CREATE TABLE [dbo].[_temp_ID](
+	[MUNDISSEC] [varchar](12) NOT NULL
+) ON [PRIMARY]
+GO
+
+--Index de Gini
+CREATE TABLE [dbo].[_temp_Gini](
+	[geo] [varchar](150) NOT NULL,
+	[Gini] [float] NULL
+) ON [PRIMARY]
+GO
+
+
+--Unifiquem les tres fonts i creem un índex únic per vincular amb les unitats cartogràfiques del ICGC
+SELECT 
+	substring(RIGHT('00000' + Ltrim(Rtrim(MUNDISSEC)),11),1,5) + substring(RIGHT('00000' + Ltrim(Rtrim(MUNDISSEC)),11),7,5) as MUNDISSEC2,
+	substring(renta.geo,12,100) as NomMUNDISSEC, 
+	renta as RentaBruta,
+	gini.Gini,
+	Resultats.nomprovincia as Provincia,
+	Resultats.nomvegueria as Vegueria,
+	Resultats.nomcomarca as Comarca,
+	Resultats.nommunicipi as Municipi,
+	Resultats.cens as PoblacioCensada,
+	Resultats.abstencio as Abstencio,
+	round(cast(Resultats.abstencio*100 as float)/cast(Resultats.cens as float),2) as AbstencioPer,
+	Resultats.blancs as VotsBlancs,
+	Resultats.partits as VotsPartits,
+	Resultats.valids as VotsValids,
+	Resultats.psc as PSC,
+	Resultats.erc as ERC,
+	Resultats.jxcat as JXCAT,
+	Resultats.vox as VOX,
+	Resultats.ecp as ECP,
+	Resultats.cup as CUP,
+	Resultats.cs as CS,
+	Resultats.pp as PP,
+	Resultats.pdcat as PDCAT,
+	round(cast(Resultats.blancs*100 as float)/cast(Resultats.valids as float),2) as VotsBlancs_Per,
+	round(cast(Resultats.psc*100 as float)/cast(Resultats.valids as float),2) as VotsPSC_Per,
+	round(cast(Resultats.ERC*100 as float)/cast(Resultats.valids as float),2) as VotsERC_Per,
+	round(cast(Resultats.jxcat*100 as float)/cast(Resultats.valids as float),2) as VotsJXCAT_Per,
+	round(cast(Resultats.vox*100 as float)/cast(Resultats.valids as float),2) as VotsVOX_Per,
+	round(cast(Resultats.ecp*100 as float)/cast(Resultats.valids as float),2) as VotsECP_Per,
+	round(cast(Resultats.cup*100 as float)/cast(Resultats.valids as float),2) as VotsCUP_Per,
+	round(cast(Resultats.cs*100 as float)/cast(Resultats.valids as float),2) as VotsCs_Per,
+	round(cast(Resultats.pp*100 as float)/cast(Resultats.valids as float),2) as VotsPP_Per,
+	round(cast(Resultats.PDCAT*100 as float)/cast(Resultats.valids as float),2) as VotsPDCAT_Per
+into #kk
+FROM _temp_ID ID
+LEFT JOIN _temp_Renta Renta on SUBSTRING(Renta.geo,1,10)=(substring(RIGHT('00000' + Ltrim(Rtrim(MUNDISSEC)),11),1,5) + substring(RIGHT('00000' + Ltrim(Rtrim(MUNDISSEC)),11),7,5))
+LEFT JOIN _temp_Gini Gini on SUBSTRING(Gini.geo,1,10)=(substring(RIGHT('00000' + Ltrim(Rtrim(MUNDISSEC)),11),1,5) + substring(RIGHT('00000' + Ltrim(Rtrim(MUNDISSEC)),11),7,5))
+LEFT JOIN _temp_Resultats Resultats on SUBSTRING(Renta.geo,1,10)=substring(RIGHT('00000' + Ltrim(Rtrim(idMunicipi)),5),1,5) + substring(RIGHT('00000' + Ltrim(Rtrim(iddistricte)),2),1,2) + substring(RIGHT('00000' + Ltrim(Rtrim(idseccio)),3),1,3)
+ORDER BY substring(RIGHT('00000' + Ltrim(Rtrim(MUNDISSEC)),11),1,5) + substring(RIGHT('00000' + Ltrim(Rtrim(MUNDISSEC)),11),7,5) ASC
+
+--transformem els valors electorals en percentatges per poder treballar el scatter plot
+select sum(PSC_Per) as PSC, sum(ERC_Per) as ERC, sum(JXCAT_PEr) as JXCAT, sum(VOX_PEr) as VOX, sum(ECP_PEr) as ECP, sum(CS_Per) as CS, sum(CUP_Per) as CUP, sum(PP_PEr) as PP, sum(PDCAT) as PDCAT 
+
+

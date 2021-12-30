@@ -21,7 +21,7 @@ A continuació presentem una visualització que ens permetrà explorar territori
  
 * Existeixen algunes seccions censals sense informació electoral, com podreu veure en la visualització (unes 30 aprox).
 
-### Renda Bruta i índex Gini
+### Renda Bruta i índex de Gini
 
 Abans d'analitzar com la renda influeix a l'hora d'exercir el dret a vot, primer visualitzarem com es comporta la renda bruta en funció del territori. Igual que en el cas dels sufragis, no tenim la renda percebuda a nivell de persona, donat que la renda es publica d'una forma agregada i no individual, així doncs, per salvar aquest obstacle, analitzarem la renda bruta de les persones usant el nivell de granularitat màxim que [l'Instituto Nacional de Estadística](https://www.ine.es/dynt3/inebase/es/index.htm?padre=7132) ens permet, que són els municipis, els districtes i les seccions censals. 
 
@@ -38,6 +38,8 @@ En la següent visualització podem interactuar per analitzar les seccions censa
 ### Renda Bruta i Resultats Electorals
 
 Ara sí, en aquest apartat ens diposem a fer ja l'anàlisis del comportament electoral en funció del vot emès. Disposem de les dades electorals a nivell de secció censal i també de la Renda Bruta en el mateix nivell de granularitat, de manera que podem suposar que cada una de les 5.084 seccions censals són "objectes" de les quals en volem analitzar el seu comportament. A més a més, cada una d'aquestes 5.084 "unitats", en podem saber si es comporten d'una manera molt o poc desigual a nivell de renda percebuda, gracies al índex de Gini.
+
+En les següents visualitzacions, mitjançant scatter plots, compararem com es comporta el percentatge de vot emès a cada partit en una deteminada illa censal en funció del nivell de renda bruta d'aquella illa censal.
 
 Farem el nostre anàlisis usant blocs de dos partits, que a priori, es dirigeixen a un mateix tipus de votant (econòmicament parlant), malgrat que ho facin des de perspectives diferents (visió catalanista vs visió unionista):
 
@@ -68,10 +70,16 @@ En Blanc i VOX. Finalment, incorporarem un últim bloc on compararem un partit p
 
 ### Conclusions
 
-Després d'analitzar en l'últim apartat els diferents partits, observem que:
+Després d'analitzar en l'últim apartat el comportament de les seccions censals en funció de la renda bruta i el percentatge de vot, observem que:
 
+* D'entrada, podem afirmar que existeix una relació entre percentatge de vot emès a un partit i augment del valor de la renda bruta. En són exemples molt clars el cas del PP, JXCAT i el PDCAT. A més renda bruta més augmenta el percentatge de vot. En el cas del PP veiem una anomàlia a la circumscripció de Girona, que s'explicaria per altres variables no econòmiques.
 
+* Observem també l'efecte contrari, partits com PSC o ECP dismunueixen el seu percentatge de vot a mesura que augmenta la renda bruta. 
 
-Segurament el lector sigui capaç d'extraure moltes més conclusions, i probablement usant l'Índex de Gini es podria afinar molt més el comportament de les seccions censals. Deixem per més endavant l'ampliació d'aquest estudi introductori en que la gran dificultat ha estat unificar les seccions censals codificades per l'ICGC i les seccions censals codificades segons l'INE, ja que malgrat que la granularitat és la mateixa, la codificació requereix d'una série de transformacions que deixem recollides en el nostra repositori de GitHub.
+* Observem anomalies que s'haurien d'explicar amb altres variables. És el cas de la CUP, en que veiem com augmenta el vot en funció de la renda bruta malgrat fer un discurs ancorat a l'esquerra. Aquí probablement afegint la variable de nivell cultural/d'estudis ens permetria extraure més conclucions per explicar-ne el comportament.
+
+* Finalment observem com el comportament del vot en blanc i el d'un partit populista es comporta d'una forma molt similar, cosa que ens pot fer pensar que això respon en certa a manera a un objectiu similar "vot de descontentament o de càstig".
+
+Segurament el lector sigui capaç d'extraure moltes més conclusions i més més acurades que les meves, i probablement usant l'Índex de Gini es podria afinar molt més el comportament de les seccions censals. Deixem per més endavant l'ampliació d'aquest estudi introductori en que la gran dificultat tècnica ha estat unificar dades de tres fonts diferents i recodificar els índexs de les seccions censals codificades per l'ICGC i les seccions censals codificades segons l'INE, ja que malgrat que la granularitat és la mateixa, la codificació requereix d'una série de transformacions que deixem recollides en el nostra repositori de GitHub.
 
 
